@@ -1,0 +1,6 @@
+{
+  "fit_time": 9.463,
+  "score_time": 0.115,
+  "test_f1": 0.898,
+  "test_roc_auc": 0.966
+}
