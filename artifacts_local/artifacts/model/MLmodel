@@ -1,0 +1,38 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.1
+metadata:
+  model_type: monthly
+mlflow_version: 2.7.1
+model_uuid: 7ce3cded5a9441888f9db76ec17ef934
+run_id: 90e7f8d96c234294a6cd521d6d356331
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "id"}, {"type": "string", "name": "begin_date"},
+    {"type": "string", "name": "end_date"}, {"type": "string", "name": "type"}, {"type":
+    "string", "name": "paperless_billing"}, {"type": "string", "name": "payment_method"},
+    {"type": "double", "name": "monthly_charges"}, {"type": "double", "name": "total_charges"},
+    {"type": "string", "name": "internet_service"}, {"type": "string", "name": "online_security"},
+    {"type": "string", "name": "online_backup"}, {"type": "string", "name": "device_protection"},
+    {"type": "string", "name": "tech_support"}, {"type": "string", "name": "streaming_tv"},
+    {"type": "string", "name": "streaming_movies"}, {"type": "string", "name": "gender"},
+    {"type": "double", "name": "senior_citizen"}, {"type": "string", "name": "partner"},
+    {"type": "string", "name": "dependents"}, {"type": "string", "name": "multiple_lines"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-08-31 14:40:49.776101'
