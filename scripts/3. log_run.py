@@ -17,7 +17,7 @@ from sklearn.metrics import (
 
 load_dotenv(dotenv_path=".env")
 
-EXPERIMENT_NAME     = os.getenv("EXPERIMENT_NAME")
+EXPERIMENT_NAME     = "test_connection_experiment_vadim_shakula"
 RUN_NAME            = os.getenv("RUN_NAME")
 REGISTRY_MODEL_NAME = os.getenv("REGISTRY_MODEL_NAME")
 

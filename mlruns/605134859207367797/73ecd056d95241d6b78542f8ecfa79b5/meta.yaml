@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mle-user/mle_projects/mle-mlflow/mlruns/605134859207367797/73ecd056d95241d6b78542f8ecfa79b5/artifacts
+end_time: 1757004214175
+entry_point_name: ''
+experiment_id: '605134859207367797'
+lifecycle_stage: active
+run_id: 73ecd056d95241d6b78542f8ecfa79b5
+run_name: practic
+run_uuid: 73ecd056d95241d6b78542f8ecfa79b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757004209871
+status: 3
+tags: []
+user_id: mle-user
